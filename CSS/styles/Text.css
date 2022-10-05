@@ -1,0 +1,33 @@
+/*
+font-family
+font-size
+font-weight
+font-style
+text-align
+text-indent
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+    font-style: italic;
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: left;
+}
+
+.one_p {
+    text-indent: 20px;
+    font-size: 20px;
+    font-style: normal;
+
+    h1 {
+        text-align: center;
+    }
+
+    .two_p {
+        text-indent: 0;
+        font-family: 'Roboti condensed', sans-serif;
+        ;
+        font-size: 20px;
+        font-weight: 600;
+    }

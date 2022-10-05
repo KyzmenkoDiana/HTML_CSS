@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: blanchedalmond;
+    font-size: 3rem;
+    height: 100px;
+}
+
+.banner {
+    background-color: brown;
+    min-height: calc(100vh - 100px);
+}

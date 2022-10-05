@@ -1,0 +1,38 @@
+/*Percent values*/
+.inner {
+    width: 50%;
+    height: 50%;
+    background-color: antiquewhite;
+}
+
+.outer {
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+
+/*em values*/
+#em {
+    font-size: 10px;
+}
+
+.absolute {
+    font-size: 32px;
+}
+
+.relative {
+    font-size: 2em;
+}
+
+/*rem values*/
+#rem {
+    font-size: 40px;
+}
+
+.absoluteRem {
+    font-size: 32px;
+}
+
+.relativeRem {
+    font-size: 2rem;
+}
