@@ -1,0 +1,44 @@
+/*
+.heading{
+    color: #f15039;
+}
+.text{
+    color: #32ff0e;
+}
+.main-text{
+    color: #1313fa;
+}
+.second-heading{
+    color: #f15025;
+}
+*/
+:root {
+    --primaryColor: #1313fa;
+    --secondaryColor: #f15025;
+    --mainTransition: all 0.4s linear;
+}
+
+.heading {
+    color: var(--primaryColor);
+}
+
+.second-heading {
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+    color: var(--secondaryColor);
+}
+
+div {
+    --primaruRed: red;
+}
+
+.main-text {
+    color: var(--primaruRed);
+}
+
+.third-heading {
+    color: var(--primaruRed);
+}
